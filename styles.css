@@ -1,0 +1,762 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(10, 9, 14);
+    border: 5px solid rgb(21, 21, 26);
+    border-left: none;
+    border-right: none;
+    color: aqua;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    max-width: 1366px;
+}
+
+.navbar-brand{
+    color: cyan;
+    font-size: 50px;
+}
+
+.navbar-brand:hover{
+    color: navy;
+}
+
+.nav-link{
+    color: cyan;
+}
+
+body{
+    background-color: black;
+}
+
+
+
+.carousel-inner img{
+    margin: 0 auto;
+    width: 400px!important;
+    height: 350px;
+    border: solid navy 5px;
+    border-right: none;
+    border-left: none;
+    border-radius: 20px;
+}
+
+.carousel-inner{
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.t1{
+    color: cyan;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text1{
+    color: rgb(255, 255, 255);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.t2{
+    color: rgb(255, 255, 255);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text2{
+    color: yellow;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.t3{
+    color: rgb(255, 255, 255);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text3{
+    color: cyan;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.box1{
+    background-color: rgba(36, 37, 37, 0.5);
+    width: 400px;
+    margin: 0 auto;
+}
+
+.box2{
+    background-color: rgba(36, 37, 37, 0.2);
+    width: 400px;
+    margin: 0 auto;
+}
+
+.box3{
+    background-color: rgba(36, 37, 37, 0.5);
+    width: 400px;
+    margin: 0 auto;
+}
+
+.Home{
+    color: navy!important;
+}
+
+.Products:hover{
+    color: navy;
+}
+
+.Contact:hover{
+    color: navy;
+}
+
+.pad0{
+    display: flex;
+    justify-content: center;
+}
+
+.pad{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+
+.pad1{
+    display: flex;
+    justify-content:center
+}
+
+.card0{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(10, 9, 14);
+    border-top: 3px solid rgb(21, 21, 26);
+    border-bottom: 3px solid rgb(21, 21, 26);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 297px;
+    height: 108px;
+    color: cyan;
+    
+}
+
+.li1{
+    border-bottom: 2px outset rgb(21, 21, 26);
+    padding-left: 5px;
+}
+
+.li2{
+    border-bottom: 2px outset rgb(21, 21, 26);
+    padding-left: 5px;
+}
+
+.li3{
+    padding-left: 5px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+ul{
+    font-size: 22px;
+    list-style: none;
+    padding-top: 10px;
+    padding: 0px;
+}
+
+p{
+    padding-left: 5px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h5{
+    padding-left: 5px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h4{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: cyan;
+}
+
+.card1{
+    max-width: 294px;
+    height: 410px;
+    background-color: rgb(10, 9, 14);
+    border: 2px solid rgb(21, 21, 26);
+    border-top-left-radius: 15px;
+}
+
+
+.p1{
+    border-bottom: outset 2px rgb(21, 21, 26);
+}
+
+.imgcard1{
+    width: 290px;
+    height: 250px;
+    background-color: rgb(10, 9, 14);
+    border-bottom: solid 5px rgb(21, 21, 26);
+    border-top-left-radius: 15px;
+}
+
+.imgcard1_1{
+    width: 100px;
+    height: 20px;
+    background-color: rgb(10, 9, 14);
+    padding-left: 5px;
+    margin-top: -30px;
+}
+
+.card1 h4{
+    background-color: rgb(10, 9, 14);
+    width: 290px;
+    height: 30px;   
+    padding-left: 5px;
+    border-bottom: solid 2px rgb(21, 21, 26);
+}
+
+.card1 h5{
+    color: green;
+}
+
+.card2{
+    max-width: 294px;
+    height: 410px;
+    background-color: rgb(10, 9, 14);
+    border: 2px solid rgb(21, 21, 26);
+    border-top-right-radius: 15px;
+}
+
+.p2{
+    border-bottom: outset 2px rgb(21, 21, 26);
+}
+
+.imgcard2{
+    width: 290px;
+    height: 250px;
+    background-color: rgb(10, 9, 14);
+    border-bottom: solid 5px rgb(21, 21, 26);
+    border-top-right-radius: 15px;
+}
+
+.imgcard2_1{
+    width: 100px;
+    height: 20px;
+    background-color: rgb(10, 9, 14);
+    padding-left: 5px;
+    margin-top: -30px;
+}
+
+.card2 h4{
+    background-color: rgb(10, 9, 14);
+    width: 290px;
+    height: 30px;   
+    padding-left: 5px;
+    border-bottom: solid 2px rgb(21, 21, 26);
+}
+
+.card2 h5{
+    color: green;
+}
+
+.card3{
+    width: 294px;
+    height: 435px;
+    background-color: rgb(10, 9, 14);
+    border: 2px solid rgb(21, 21, 26);
+    border-bottom-left-radius: 15px;
+}
+
+.p3{
+    border-bottom: outset 2px rgb(21, 21, 26);
+}
+
+.imgcard3{
+    width: 290px;
+    height: 250px;
+    background-color: rgb(10, 9, 14);
+    border-bottom: solid 5px rgb(21, 21, 26);
+}
+
+.imgcard3_1{
+    width: 100px;
+    height: 20px;
+    background-color: rgb(10, 9, 14);
+    padding-left: 5px;
+    margin-top: -30px;
+}
+
+.card3 h4{
+    background-color: rgb(10, 9, 14);
+    width: 290px;
+    height: 30px;   
+    padding-left: 5px;
+    border-bottom: solid 2px rgb(21, 21, 26);
+}
+
+.card3 h5{
+    color: green;
+}
+
+.card4{
+    max-width: 294px;
+    height: 435px;
+    background-color: rgb(10, 9, 14);
+    border: 2px solid rgb(21, 21, 26);
+    border-bottom-right-radius: 15px;
+}
+
+.p4{
+    border-bottom: outset 2px rgb(21, 21, 26);
+}
+
+.imgcard4{
+    width: 290px;
+    height: 250px;
+    background-color: rgb(10, 9, 14);
+    border-bottom: solid 5px rgb(21, 21, 26);
+}
+
+.imgcard4_1{
+    width: 100px;
+    height: 20px;
+    background-color: rgb(10, 9, 14);
+    padding-left: 5px;
+    margin-top: -30px;
+}
+
+.card4 h4{
+    background-color: rgb(10, 9, 14);
+    width: 290px;
+    height: 30px;   
+    padding-left: 5px;
+    border-bottom: solid 2px rgb(21, 21, 26);
+}
+
+.card4 h5{
+    color: green;
+}
+
+.lasta1{
+    border-left: 2px solid;
+    padding-left: 5px;
+}
+
+.lasta2{
+    border-left: 2px solid;
+    padding-left: 5px;
+}
+
+.lasta3{
+    border-left: 2px solid;
+    padding-left: 5px;
+}
+
+.lastdiv{
+    display: flex;
+    justify-content: center;
+}
+
+
+.lastdiv img{
+    width: 60px;
+}
+
+footer{
+    padding: 50px;
+    text-align: center;
+    margin-top: 15px;
+    background-color: rgb(10, 9, 14);
+    border-top: solid 5px rgb(21, 21, 26);
+    border-bottom: solid 5px rgb(21, 21, 26);
+    font-optical-sizing: 38px;
+    max-width: 1366px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: cyan;
+}
+
+@media screen and (max-width:600px) {
+    .card1{
+        max-width: 244px;
+        height: 380px;
+        background-color: rgb(10, 9, 14);
+        border: 2px solid rgb(21, 21, 26);
+        border-top-left-radius: 15px;
+    }
+    
+    
+    .p1{
+        border-bottom: outset 2px rgb(21, 21, 26);
+    }
+    
+    .imgcard1{
+        width: 244px;
+        height: 200px;
+        background-color: rgb(10, 9, 14);
+        border-bottom: solid 5px rgb(21, 21, 26);
+        border-top-left-radius: 15px;
+    }
+    
+    .imgcard1_1{
+        width: 50px;
+        height: 10px;
+        background-color: rgb(10, 9, 14);
+        padding-left: 5px;
+        margin-top: -30px;
+    }
+    
+    .card1 h4{
+        background-color: rgb(10, 9, 14);
+        width: 290px;
+        height: 30px;   
+        padding-left: 5px;
+        border-bottom: solid 2px rgb(21, 21, 26);
+    }
+    
+    .card1 h5{
+        color: green;
+    }
+    
+    .card2{
+        max-width: 244px;
+        height: 380px;
+        background-color: rgb(10, 9, 14);
+        border: 2px solid rgb(21, 21, 26);
+        border-top-right-radius: 15px;
+    }
+    
+    .p2{
+        border-bottom: outset 2px rgb(21, 21, 26);
+    }
+    
+    .imgcard2{
+        width: 240px;
+        height: 200px;
+        background-color: rgb(10, 9, 14);
+        border-bottom: solid 5px rgb(21, 21, 26);
+        border-top-right-radius: 15px;
+    }
+    
+    .imgcard2_1{
+        width: 50px;
+        height: 10px;
+        background-color: rgb(10, 9, 14);
+        padding-left: 5px;
+        margin-top: -30px;
+    }
+    
+    .card2 h4{
+        background-color: rgb(10, 9, 14);
+        width: 240px;
+        height: 30px;   
+        padding-left: 5px;
+        border-bottom: solid 2px rgb(21, 21, 26);
+    }
+    
+    .card2 h5{
+        color: green;
+    }
+    
+    .card3{
+        width: 244px;
+        height: 430px;
+        background-color: rgb(10, 9, 14);
+        border: 2px solid rgb(21, 21, 26);
+        border-bottom-left-radius: 15px;
+    }
+    
+    .p3{
+        border-bottom: outset 2px rgb(21, 21, 26);
+    }
+    
+    .imgcard3{
+        width: 240px;
+        height: 250px;
+        background-color: rgb(10, 9, 14);
+        border-bottom: solid 5px rgb(21, 21, 26);
+    }
+    
+    .imgcard3_1{
+        width: 50px;
+        height: 10px;
+        background-color: rgb(10, 9, 14);
+        padding-left: 5px;
+        margin-top: -30px;
+    }
+    
+    .card3 h4{
+        background-color: rgb(10, 9, 14);
+        width: 240px;
+        height: 30px;   
+        padding-left: 5px;
+        border-bottom: solid 2px rgb(21, 21, 26);
+    }
+    
+    .card3 h5{
+        color: green;
+    }
+    
+    .card4{
+        max-width: 244px;
+        height: 430px;
+        background-color: rgb(10, 9, 14);
+        border: 2px solid rgb(21, 21, 26);
+        border-bottom-right-radius: 15px;
+    }
+    
+    .p4{
+        border-bottom: outset 2px rgb(21, 21, 26);
+    }
+    
+    .imgcard4{
+        width: 240px;
+        height: 250px;
+        background-color: rgb(10, 9, 14);
+        border-bottom: solid 5px rgb(21, 21, 26);
+    }
+    
+    .imgcard4_1{
+        width: 50px;
+        height: 10px;
+        background-color: rgb(10, 9, 14);
+        padding-left: 5px;
+        margin-top: -30px;
+    }
+    
+    .card4 h4{
+        background-color: rgb(10, 9, 14);
+        width: 240px;
+        height: 30px;   
+        padding-left: 5px;
+        border-bottom: solid 2px rgb(21, 21, 26);
+    }
+    
+    .card4 h5{
+        color: green;
+    }
+}
+
+@media screen and (max-width:500px) {
+.carousel-inner img{
+        margin: 0 auto;
+        width: 300px!important;
+        height: 250px;
+        border: solid navy 5px;
+        border-right: none;
+        border-left: none;
+        border-radius: 20px;
+    }
+    
+    .card1{
+        max-width: 140px;
+        height: 420px;
+        background-color: rgb(10, 9, 14);
+        border: 2px solid rgb(21, 21, 26);
+        border-top-left-radius: 15px;
+    }
+    
+    
+    .p1{
+        border-bottom: outset 2px rgb(21, 21, 26);
+    }
+    
+    .imgcard1{
+        width: 140px;
+        height: 200px;
+        background-color: rgb(10, 9, 14);
+        border-bottom: solid 5px rgb(21, 21, 26);
+        border-top-left-radius: 15px;
+    }
+    
+    .imgcard1_1{
+        width: 50px;
+        height: 10px;
+        background-color: rgb(10, 9, 14);
+        padding-left: 5px;
+        margin-top: -30px;
+    }
+    
+    .card1 h4{
+        background-color: rgb(10, 9, 14);
+        width: 140px;
+        height: 30px;   
+        padding-left: 5px;
+        border-bottom: solid 2px rgb(21, 21, 26);
+    }
+    
+    .card1 h5{
+        color: green;
+    }
+    
+    .card2{
+        max-width: 140px;
+        height: 420px;
+        background-color: rgb(10, 9, 14);
+        border: 2px solid rgb(21, 21, 26);
+        border-top-right-radius: 15px;
+    }
+    
+    .p2{
+        border-bottom: outset 2px rgb(21, 21, 26);
+    }
+    
+    .imgcard2{
+        width: 140px;
+        height: 200px;
+        background-color: rgb(10, 9, 14);
+        border-bottom: solid 5px rgb(21, 21, 26);
+        border-top-right-radius: 15px;
+    }
+    
+    .imgcard2_1{
+        width: 50px;
+        height: 10px;
+        background-color: rgb(10, 9, 14);
+        padding-left: 5px;
+        margin-top: -30px;
+    }
+    
+    .card2 h4{
+        background-color: rgb(10, 9, 14);
+        width: 140px;
+        height: 30px;   
+        padding-left: 5px;
+        border-bottom: solid 2px rgb(21, 21, 26);
+    }
+    
+    .card2 h5{
+        color: green;
+    }
+    
+    .card3{
+        width: 140px;
+        height: 500px;
+        background-color: rgb(10, 9, 14);
+        border: 2px solid rgb(21, 21, 26);
+        border-bottom-left-radius: 15px;
+    }
+    
+    .p3{
+        border-bottom: outset 2px rgb(21, 21, 26);
+    }
+    
+    .imgcard3{
+        width: 140px;
+        height: 250px;
+        background-color: rgb(10, 9, 14);
+        border-bottom: solid 5px rgb(21, 21, 26);
+    }
+    
+    .imgcard3_1{
+        width: 50px;
+        height: 10px;
+        background-color: rgb(10, 9, 14);
+        padding-left: 5px;
+        margin-top: -30px;
+    }
+    
+    .card3 h4{
+        background-color: rgb(10, 9, 14);
+        width: 140px;
+        height: 30px;   
+        padding-left: 5px;
+        border-bottom: solid 2px rgb(21, 21, 26);
+    }
+    
+    .card3 h5{
+        color: green;
+    }
+    
+    .card4{
+        max-width: 140px;
+        height: 500px;
+        background-color: rgb(10, 9, 14);
+        border: 2px solid rgb(21, 21, 26);
+        border-bottom-right-radius: 15px;
+    }
+    
+    .p4{
+        border-bottom: outset 2px rgb(21, 21, 26);
+    }
+    
+    .imgcard4{
+        width: 135px;
+        height: 250px;
+        background-color: rgb(10, 9, 14);
+        border-bottom: solid 5px rgb(21, 21, 26);
+    }
+    
+    .imgcard4_1{
+        width: 50px;
+        height: 10px;
+        background-color: rgb(10, 9, 14);
+        padding-left: 5px;
+        margin-top: -30px;
+    }
+    
+    .card4 h4{
+        background-color: rgb(10, 9, 14);
+        width: 135px;
+        height: 30px;   
+        padding-left: 5px;
+        border-bottom: solid 2px rgb(21, 21, 26);
+    }
+    
+    .card4 h5{
+        color: green;
+    }
+}
+
+@media screen and (max-width:380px) {
+.carousel-inner img{
+        margin: 0 auto;
+        width: 200px!important;
+        height: 200px;
+        border: solid navy 5px;
+        border-right: none;
+        border-left: none;
+        border-radius: 20px;
+    } 
+}
+
+@media screen and (max-width:265px) {
+    .carousel-inner img{
+            margin: 0 auto;
+            width: 150px!important;
+            height: 150px;
+            border: solid navy 5px;
+            border-right: none;
+            border-left: none;
+            border-radius: 20px;
+        } 
+    }
